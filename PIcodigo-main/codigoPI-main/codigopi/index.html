@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Santa Busca</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div class="app">
+
+    <div class="container">
+
+      <div class="header">
+
+        <div class="tag">
+          ▸ Santa Cruz RN
+        </div>
+
+        <h1>
+          Santa <span>Busca</span>
+        </h1>
+
+        <p>
+          Compare preços entre supermercados, farmácias e postos.
+        </p>
+
+      </div>
+
+      <div class="searchBox">
+
+        <span class="icon">
+          🔍
+        </span>
+
+        <input
+          type="text"
+          id="search"
+          placeholder="Pesquise arroz, dipirona, gasolina..."
+        >
+
+        <button class="clear" id="clearBtn">
+          ×
+        </button>
+
+      </div>
+
+      <div class="listaProdutosArea">
+
+        <h2>
+          Produtos disponíveis
+        </h2>
+
+        <div id="listaProdutos" class="listaProdutos"></div>
+
+      </div>
+
+      <div class="count">
+        <span id="count">0</span> resultados
+      </div>
+
+      <div id="grid"></div>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
